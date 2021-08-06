@@ -1,0 +1,85 @@
+.myCourses__Wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    padding: 10px;
+    &::-webkit-scrollbar{
+        width: 2px;
+    }
+    &::-webkit-scrollbar-thumb{
+        background: #dbdada;
+        border-radius: 5px;
+    }
+    .myCourses__CourseElement{
+        width: 300px;
+        padding: 7px;
+        display: flex;
+        flex-direction: column;
+        background-color: #363636;
+        border-radius: 5px;
+        margin-right: 10px;
+        padding: 10px;
+        .myCourses__Top{
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+            img{
+                height: 50px;
+                width: 50px;
+                border-radius: 10px;
+            }
+            .myCourses__Begginers{
+                display: flex;
+                flex-direction: column;
+                margin-left: 5px;
+                span{
+                    margin: 0%;
+                    font-size: 14px;
+                    color: greenyellow;
+                }
+            }
+            .myCourses__Advance{
+                display: flex;
+                flex-direction: column;
+                margin-left: 5px;
+                span{
+                    margin: 0%;
+                    font-size: 14px;
+                    color: red;
+                }
+            }
+        }
+        .myCourses__Middle{
+            display: flex;
+            align-items: center;
+            span{
+                color: #efefef;
+                margin-right: 7px;
+            }
+            p{
+                margin: 0;
+                margin-left: 7px;
+            }
+        }
+        .myCourses__BottomBar{
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            p{
+                margin: 0;
+                margin: 0 3px;
+                font-size: 14px;
+            }
+            .myCourses__Progress{
+                background-color: #2e2e2e;
+                height: 2px;
+                flex: 1;
+                div{
+                    background-color: aqua;
+                    height: 2px;
+                }
+            }
+        }
+    }
+}

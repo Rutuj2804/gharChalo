@@ -1,0 +1,30 @@
+.rightSideProgressBar__Wrapper{
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    .rightSideProgressBar__Bottom{
+        background-color: rgb(44, 36, 36);
+        padding: 10px;
+        border-radius: 10px;
+        ul{
+            height: 300px;
+            width: 100%;
+            margin-top: 10px;
+            overflow-y: scroll;
+            list-style: none;
+            padding: 0%;
+            &::-webkit-scrollbar{
+                width: 5px;
+            }
+            &::-webkit-scrollbar-thumb{
+                background: #dbdada;
+                border-radius: 5px;
+            }
+        }
+    }
+    .rightSideProgressBar__Top{
+        background-color: rgb(44, 36, 36);
+        padding: 10px;
+        border-radius: 10px;
+    }
+}

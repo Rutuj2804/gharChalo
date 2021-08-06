@@ -1,0 +1,24 @@
+.subjectComponent__Wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 5px 0;
+    .subjectComponent__Left{
+        h6{
+            margin: 0%;
+            color: #efefef;
+        }
+        p{
+            margin: 0%;
+            color: #ccc;
+            font-size: 14px;
+        }
+    }
+    .subjectComponent__Right p{
+        margin: 0%;
+    }
+}

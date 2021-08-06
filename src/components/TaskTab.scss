@@ -1,0 +1,38 @@
+.taskTab__Wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    background: color #2e2e2e;
+    padding: 10px;
+    .taskTab__Top{
+        display: flex;
+        align-items: center;
+        input{
+            margin-right: 7px;
+        }
+    }
+    .taskTab__Middle{
+        display: flex;
+        align-items: center;
+        color: #ccc;
+        p{
+            margin: 0%;
+            margin-right: 7px;
+        }
+        span{
+            padding: 5px;
+            border-radius: 20px;
+            background-color: aqua;
+            color: #000;
+            font-size: 12px;
+        }
+    }
+    .taskTab__End{
+        display: flex;
+        align-items: center;
+        p{
+            margin: 0%;
+            margin-left: 7px;
+        }
+    }
+}

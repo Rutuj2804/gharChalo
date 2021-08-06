@@ -1,0 +1,62 @@
+.navbar__Wrapper{
+    position: relative;
+}
+
+.navbar__SideBar{
+    padding: 20px 5px;
+    background-color: rgb(44, 36, 36);
+    width: 70px;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    .navbar__MenuButton{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .current button{
+        background-color: aqua;
+        .MuiSvgIcon-root{
+            fill: rgb(44, 36, 36);
+        }
+    }
+    ul{
+        list-style: none;
+        padding: 0%;
+        text-align: center;
+        li .MuiSvgIcon-root{
+            fill: #efefef;
+        }
+    }
+}
+
+.navbar__TopBar{
+    position: absolute;
+    top: 0%;
+    left: 70px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(44, 36, 36);
+    width: calc(100vw - 90px);
+    justify-content: space-between;
+    padding: 10px;
+    .navbar__Options{
+        display: flex;
+        align-items: center;
+        .navbar__Avatar{
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            h6{
+                margin: 0%;
+                text-transform: capitalize;
+            }
+            .MuiAvatar-root{
+                margin-right: 7px;
+            }
+        }
+        .MuiSvgIcon-root{
+            fill: #efefef;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.login__Wrapper{
+    width: 400px;
+    .login__LoginTitles{
+        h1{
+
+        }
+        p{
+
+        }
+    }
+    form{
+        .login__InputDiv{
+            position: relative;
+            margin: 30px 0;
+            input{
+                width: 100%;
+                background-color: transparent;
+                padding: 7px;
+                border: none;
+                outline: none;
+                border-bottom: 1px solid #efefef;
+                color: aqua;
+                &:valid, &:focus{
+                    border-bottom: 1px solid aqua;
+                }
+                &:valid ~ label, &:focus ~ label{
+                    font-size: 12px;
+                    color: aqua;
+                    top: -10px;
+                    left: -5px;
+                    transition: 0.2s linear;
+                }
+            }
+            label{
+                position: absolute;
+                top: 7px;
+                left: 7px;
+            }
+        }
+        button{
+            background-color: aqua!important;
+            margin-top: 20px;
+        }
+    }
+}

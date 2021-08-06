@@ -1,0 +1,11 @@
+.dashboard__Wrapper{
+    display: flex;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: "1120px") {
+    .dashboard__Wrapper{
+        flex-direction: column;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,22 @@
+.middleComponent__Wrapper{
+    width: calc(100vw - 750px);
+    padding: 10px;
+    .middleComponent__Chart{
+        background-color: rgb(44, 36, 36);
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .middleComponent__LeaderBoard{
+        background-color: rgb(44, 36, 36);
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .middleComponent__MyCourses{
+        background-color: rgb(44, 36, 36);
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
